@@ -1,0 +1,117 @@
+// Colors from trendy flat design : http://flatuicolors.com/
+
+
+bgcolor = #bdc3c7
+linkcolor = #f1c40f
+
+
+html
+    background bgcolor
+    box-sizing border-box
+
+*, *:before, *:after
+    box-sizing inherit
+
+a
+    text-decoration none
+    color linkcolor
+
+
+
+.hub
+    max-width 1000px
+    margin 0 auto
+    @media(max-width: 1000px)
+        padding 0 15px
+
+
+.hub-title
+    color #34495e
+
+    &-sitename
+        margin-bottom 0
+        // text-transform uppercase
+        font-weight 900
+        display block
+        @media(max-width: 500px)
+            font-size: 5em
+
+    &-desc
+        line-height 1
+
+
+
+
+.hub-layout
+    color #112131
+    display flex
+    flex-direction row
+    flex-wrap wrap
+    justify-content center
+    align-content space-around
+    margin-bottom 4em
+
+.hub-card
+    flex 1 0 300px
+    margin 3px
+    .mdl-card__title
+        color rgba(255,255,255,.6)
+
+    .mdl-card__supporting-text
+        color #fff
+
+    .mdl-card__title a
+        color inherit
+
+    .mdl-card__actions
+        background-color rgba(0,0,0,.2)
+
+    .mdl-button:hover
+        background-color rgba(0,0,0,.2)
+
+    .mdl-button--colored
+        color linkcolor
+
+    &-time
+        color #fff
+        display block
+        font-size .6em
+        font-weight normal
+        text-transform uppercase
+        margin-bottom .9em
+
+
+
+
+
+.hub-card-wider
+    // flex 1 0 600px
+    // not implemented yet
+
+
+hub-card-color(c)
+    background-color alpha(c, 1)
+
+.hub-card-c1
+    hub-card-color(#9b59b6)
+
+.hub-card-c2
+    hub-card-color(#2980b9)
+
+.hub-card-c3
+    hub-card-color(#d35400)
+
+.hub-card-c4
+    hub-card-color(#16a085)
+
+.hub-card-c5
+    hub-card-color(#c0392b)
+
+.hub-card-c6
+    hub-card-color(#34495e)
+
+.hub-card-c7
+    hub-card-color(#27ae60)
+
+.hub-card-c8
+    hub-card-color(#7f8c8d)

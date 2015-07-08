@@ -1,0 +1,16 @@
+{
+  "name": "hubnantes",
+  "version": "1.0.0",
+  "description": "A nice list of Tech events in Nantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lr-http-server": "^0.1.1",
+    "node-watch": "^0.3.4",
+    "pleeease": "^3.3.0"
+  }
+}
