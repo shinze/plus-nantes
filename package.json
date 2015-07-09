@@ -4,13 +4,16 @@
   "description": "A nice list of Tech events in Nantes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "lr-http-server": "^0.1.1",
     "node-watch": "^0.3.4",
     "pleeease": "^3.3.0"
   }
 }
+
+
+
