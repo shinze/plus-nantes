@@ -7,10 +7,3 @@ A WIP.
 ```
 $ npm start
 ```
-
-
-## Ouvrir le projet dans un navigateur
-
-```
-$ lr-http-server -d app
-```

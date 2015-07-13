@@ -4,16 +4,19 @@
   "description": "A nice list of Tech events in Nantes",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "webpack-dev-server --content-base app",
+    "build": "NODE_ENV=production webpack -p && cp app/index.html dist/index.html"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "lr-http-server": "^0.1.1",
-    "node-watch": "^0.3.4",
-    "pleeease": "^3.3.0"
+    "css-loader": "^0.15.2",
+    "pleeease-loader": "^1.0.0",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "material-design-lite": "^1.0.0-3"
   }
 }
-
-
-

@@ -1,0 +1,15 @@
+[app/index.html]
+indent_style = space
+indent_size = 4
+[app/views/**.html]
+indent_style = space
+indent_size = 4
+[app/**.js]
+indent_style = space
+indent_size = 2
+[test/**.js]
+indent_style = space
+indent_size = 2
+[app/styles/**.css]
+indent_style = space
+indent_size= 4
